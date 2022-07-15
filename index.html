@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Test Serialization</title>
+    <script src="./node_modules/@emurgo/cardano-serialization-lib-asmjs/cardano_serialization_lib.asm.js"></script>
+    <script src="bip39.js"></script>
+    <script src="https://bundle.run/buffer@6.0.3"></script>
+    <!-- <script src="./node_modules/cbor.js"></script> -->
+</head>
+<body>
+    <h1>MINT/BURNING</h1>
+    <input id="txhash" name="txhash" type="text"><br>    
+    <input id="hashid" name="hashid" type="text" value="0"><br>
+    <input id="amount" name="amount" type="text" value="123456"><br>
+    
+    <button onclick="mint()">Mint</button>
+    <button onclick="burn()">Burn</button>
+    <script src="huobi-wmt.js"></script>
+</body>
+</html>
