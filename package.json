@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@emurgo/cardano-serialization-lib-asmjs": "^10.0.4",
+    "@emurgo/cardano-serialization-lib-asmjs": "^11.5.0",
     "cbor": "^8.1.0"
   }
 }
